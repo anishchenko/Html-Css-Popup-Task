@@ -61,6 +61,14 @@ main {
   list-style: none;
 }
 
+.navigation__item {
+  margin-right: 1rem;
+}
+
+.navigation__item:last-child {
+  margin-right: 0;
+}
+
 .navigation__link {
   padding: 1rem;
   color: #54BAB9;
@@ -136,6 +144,7 @@ main {
 .popup__label--more,
 .popup__label--less {
   cursor: pointer;
+  color: #54BAB9;
 }
 
 .popup__input--more:hover + .popup__label--more,
@@ -251,7 +260,7 @@ main {
     padding: 0 1rem;
   }
   .navigation__item {
-    margin-right: 1rem;
+    margin-right: 0.7rem;
   }
   .navigation__link{
     font-size: 1.3rem;
@@ -293,11 +302,12 @@ main {
     width: 60rem;
   }
   .navigation__item {
-    margin-right: 1.5rem;
+    margin-right: 1rem;
   }
   .navigation__link{
     font-size: 1rem;
   }
+  
   .popup__figcaption  {
     font-size: 0.9rem;
   }
