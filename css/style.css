@@ -86,7 +86,7 @@ main {
 .popup__label {
   display: block;
   padding: 1.575rem;
-  background-image: url(/img/icons/popup-button.png);
+  background-image: url(../img/icons/popup-button.png);
   background-repeat: no-repeat;
   background-size: cover;
 } 
