@@ -68,7 +68,8 @@ main {
 
 .navigation__link {
   padding: 1rem;
-  color: #54BAB9;
+  color: #214d54;
+  /* color: #54BAB9; */
 }
 
 .navigation__link:hover,
@@ -140,7 +141,8 @@ main {
 .popup__label--more,
 .popup__label--less {
   cursor: pointer;
-  color: #54BAB9;
+  color: #214d54;
+  /* color: #54BAB9; */
 }
 
 .popup__input--more:hover + .popup__label--more,
@@ -187,7 +189,8 @@ main {
   margin-top: 0.65rem;
   font-size: 0.8rem;
   letter-spacing: 0;
-  color: #54BAB9;
+  color: #214d54;
+  /* color: #54BAB9; */
 }
 
 .popup__list--more {
