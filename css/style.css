@@ -16,15 +16,12 @@ a {
 input[type="checkbox"].visualy_hidden,
 input[type="radio"].visualy_hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -121,7 +118,6 @@ main {
   overflow-y: auto;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0.4rem 0.8rem;
   scrollbar-gutter: stable;
-
   display: none;
 }
 
@@ -200,7 +196,6 @@ main {
   padding: 0;
   flex-wrap: wrap;
   list-style: none;
-
   display: none;
 } 
 
@@ -209,11 +204,23 @@ main {
   display: flex;
 }
 
-/*  scroll */
-::-webkit-scrollbar { width: 0.3rem; height: 0.3rem;}
-::-webkit-scrollbar-button {  background-color: #e1eaea; }
-::-webkit-scrollbar-track-piece { background-color: #fff}
-::-webkit-scrollbar-thumb {background-color: #666; border-radius: 0.3rem;}
+::-webkit-scrollbar {
+  width: 0.3rem; 
+  height: 0.3rem;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #e1eaea;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666666;
+  border-radius: 0.3rem;
+}
 
 /* media */
 
